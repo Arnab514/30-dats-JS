@@ -17,4 +17,28 @@
  let quotient = num1 / num2;
  console.log("Quotient:", quotient); // Output: Quotient: 1.6666666666666667
  
+ // Task 5: Write a program to find the remainder when one number is divided by another and log the result to the console.
+ let remainder = num1 % num2;
+ console.log("Remainder:", remainder); // Output: Remainder: 2
+
+
+// Activity 2: Assignment Operators
+ // Task 6: Use the += operator to add a number to a variable and log the result to the console.
+ let number = 10;
+ number += 5;
+ console.log("Result after += 5:", number); // Output: Result after += 5: 15
+
+ // Task 7: Use the -= operator to subtract a number from a variable and log the result to the console.
+ number -= 3;
+ console.log("Result after -= 3:", number); // Output: Result after -= 3: 12
+
+
+ // Activity 3: Comparison Operators
+ // Task 8: Write a program to compare two numbers using < and > and log the result to the console.
+ let a = 8;
+ let b = 6;
+ 
+ console.log("Is a less than b?", a < b); // Output: Is a less than b? false
+ console.log("Is a greater than b?", a > b); // Output: Is a greater than b? true
+
  
